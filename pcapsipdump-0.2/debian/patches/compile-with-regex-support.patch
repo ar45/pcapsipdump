@@ -1,0 +1,10 @@
+compile with regex support
+--- a/Makefile
++++ b/Makefile
+@@ -1,5 +1,5 @@
+ #uncommend next line for regex support
+-#DEFS ?= -DUSE_REGEXP
++DEFS ?= -DUSE_REGEXP
+ LIBS ?= -lpcap -lstdc++
+ 
+ all: pcapsipdump

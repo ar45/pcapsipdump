@@ -1,0 +1,15 @@
+Source: pcapsipdump
+Section: net
+Priority: optional
+Maintainer: Aron Podrigal <aron@mongotel.com>
+Build-Depends: debhelper (>= 9), libpcap-dev
+Standards-Version: 3.9.5
+Homepage: http://sourceforge.net/projects/pcapsipdump/
+
+Package: pcapsipdump
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: pcapsipdump is libpcap-based SIP sniffer with per-call sorting capabilities.
+	pcapsipdump is libpcap-based SIP sniffer with per-call sorting capabilities. \
+	It writes SIP/RTP sessions to disk in a same format, as "tcpdump -w", but \
+	one file per SIP session (even if there is thousands of concurrent SIP sessions). \

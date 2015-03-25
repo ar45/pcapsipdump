@@ -1,0 +1,12 @@
+# Defaults for pcapsipdump initscript
+# sourced by /etc/init.d/pcapsipdump
+# installed at /etc/default/pcapsipdump by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS=""
+SPOOLDIR=/var/spool/pcapsipdump
+DEVICE=any
